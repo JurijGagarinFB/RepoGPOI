@@ -1,11 +1,13 @@
 <?php
 
+echo "Hello world!\n";
 
-echo "Hello world!";
-$persone = [
-    "nome" => "Marco",
-    "cognome" => "polo",
-    "eta" => 30
+$persona = [
+    "nome"     => "Marco",
+    "cognome"  => "Polo",
+    "eta"      => 30,
+    "peso"     => 65,
+    "altezza"  => 1.80
 ];
 
-print_r($persone);
+print_r($persona);
